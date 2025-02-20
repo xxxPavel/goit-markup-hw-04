@@ -56,13 +56,13 @@ img {
   font-family: "Roboto", sans-serif;
 }
 
-.active a{
+.menu-item--active a{
   position: relative;
   color: #404bbf;
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.active a::after{
+.menu-item--active a::after{
 content: '';
 width: 100%;
 position: absolute;
@@ -108,7 +108,7 @@ address {
   display: inline-block;
   padding: 24px 0 24px 0;
 }
-.menu-nav-li-a {
+.menu-link {
   margin-right: 0;
   font-weight: 700;
   font-size: 16px;
@@ -117,8 +117,8 @@ address {
   color: #2e2f42;
   
 }
-.menu-nav-li-a:hover,
-.menu-nav-li-a:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 .address {
@@ -131,7 +131,7 @@ address {
   
 }
 
-.mailto {
+.address-link {
   letter-spacing: 0.02em;
   padding: 24px 0;
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -226,10 +226,10 @@ address {
 /* #endregion hero */
 
 /* SECTION 2 ------------------------------------------------------------*/
-.section-two {
+.features-section {
   padding: 120px 0;
 }
-.section-two-ul {
+.features-list {
   display: flex;
   gap: 24px;
   flex-direction:row;
@@ -238,7 +238,7 @@ address {
 
   
 }
-.section-two-li {
+.features-item {
    width: calc((100% - 72px) / 4);
 }
 
@@ -258,11 +258,11 @@ address {
   font-style: normal;
 }
 
-.footer-logotype-phrase-studio {
+.footer-logo-highlight {
   color: #f4f4fd;
 }
 
-.section-feature {
+.feature-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -270,7 +270,7 @@ address {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.section-two-title {
+.features-section-title {
   font-size: 36px;
   text-align: center;
   line-height: 1.11;
@@ -278,11 +278,11 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.section-two-p {
+.feature-text {
   letter-spacing: 0.02em;
 }
 
-.feature {
+.feature-icon-wrapper {
    display: flex; 
    align-items: center;
    justify-content: center;
@@ -538,7 +538,7 @@ address {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-p {
+.footer-text {
   font-family: "Roboto",sans-serif;
   color: #f4f4fd;
   letter-spacing:2%;
@@ -549,7 +549,7 @@ address {
 
 
 }
-.footer-a {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
   text-transform: uppercase;
