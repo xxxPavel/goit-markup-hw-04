@@ -178,9 +178,10 @@ address {
   text-align: center;
   height: 600px;
   max-width: 1440px; */
-
-    width: 100vw; /* Растягиваем на всю ширину экрана */
-    min-height: 100vh; /* Растягиваем на всю высоту экрана */
+  margin: 0 auto;
+  max-width: 1440px; /* смещает бг в лево ! */
+  width: 100vw; /* Растягиваем на всю ширину экрана */
+  min-height: 100vh; /* Растягиваем на всю высоту экрана */
 }
 .inside-hero {
   
@@ -279,6 +280,18 @@ address {
 }
 .section-two-p {
   letter-spacing: 0.02em;
+}
+
+.feature {
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   height: 112px;
+   background-color: #f4f4fd;
+   border-radius: 4px;
+   border: 1px solid #8e8f99; 
+   margin-bottom: 8px; 
+
 }
 
 /* SECTION 3 */
