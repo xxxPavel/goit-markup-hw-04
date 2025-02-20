@@ -38,6 +38,7 @@ img {
 /* -------- HEADER --------- */
 .header{
   border-bottom: 1px solid #e7e9fc;
+  box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container-header {
   width: 1158px;
@@ -46,14 +47,30 @@ img {
   box-sizing: content-box;/* не учитывать падинг в общую ширину - накладывать поверх width */
   display: flex;
   justify-content: space-between; /* Розподіляє елементи рівномірно, крайні по краях */
-  padding: 0 15px
-   
+  padding: 0 15px   
 }
 
 .nav {
   display: flex;
   align-items: center;
   font-family: "Roboto", sans-serif;
+}
+
+.active a{
+  position: relative;
+  color: #404bbf;
+}
+
+.active a::after{
+content: '';
+width: 100%;
+position: absolute;
+left: 0;
+ bottom: -1px;
+ height: 4px;
+ background-color: #404bbf; 
+  border-radius: 2px;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 address {
@@ -117,8 +134,12 @@ address {
   letter-spacing: 0.02em;
   padding: 24px 0;
   color: #434455;
+  
 }
 
+.address-ul li:nth-child(2) .mailto {
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
 
 
 .address-ul a {
@@ -150,9 +171,13 @@ address {
 .hero {
   background-color: #2e2f42;
   background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
   padding: 188px 0;
   text-align: center;
   height: 600px;
+  max-width: 1440px;
 }
 
 .hero-title {
@@ -182,6 +207,7 @@ address {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -276,6 +302,39 @@ address {
   padding: 0;
   margin: 0; 
   border: 0;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.elipse-icon{
+  fill: #f4f4fd;
+
+}
+
+.icons-list {
+ display: flex;
+ justify-content: center;
+ gap: 24px; 
+
+}
+.ellipse-a{
+  width: 100%;
+  height: 100%;
+  background-color:#4d5ae5;
+   border-radius: 50%;
+   display: flex; 
+   align-items: center;
+    justify-content: center;
+}
+
+.ellipse-a:hover, .ellipse-a:focus  {
+  background-color:  #404bbf; ;
+}
+
+.ellipse {
+  width: 40px;
+  height: 40px;
+  /* background-color: #4D5AE5; */
+ 
+
 }
 
 .team-card img {
@@ -309,6 +368,7 @@ address {
 .worker-p {
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-title {
@@ -363,12 +423,39 @@ address {
    border:0;
    padding: 0;
    box-sizing: border-box;
+   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.portfolio-card:hover {
+
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card img {
   margin: 0;
   padding: 0;
   width: 100%;
+}
+
+.portfolio-img {
+  position: relative;
+   overflow: hidden;
+}
+
+.portfolio-img-p {
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd; 
+  padding: 40px 32px;
+  background-color: #4d5ae5; 
+   height: 100%;
+   width: 100%; 
+   transform: translateY(100%);
+   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
 }
 
 .portfolio-title {
