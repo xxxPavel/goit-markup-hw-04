@@ -59,6 +59,7 @@ img {
 .active a{
   position: relative;
   color: #404bbf;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active a::after{
@@ -70,7 +71,7 @@ left: 0;
  height: 4px;
  background-color: #404bbf; 
   border-radius: 2px;
-  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 address {
@@ -133,12 +134,13 @@ address {
 .mailto {
   letter-spacing: 0.02em;
   padding: 24px 0;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   color: #434455;
   
 }
 
 .address-ul li:nth-child(2) .mailto {
-  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  
 }
 
 
