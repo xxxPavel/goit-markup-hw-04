@@ -1,0 +1,317 @@
+      <section class="section-three">
+        <div class="container">
+          <!-- section-three-title -->
+          <h2 class="team-title">Our Team</h2>
+          
+          <ul class="team-list">
+            
+            <li class="team-card">
+              <img
+                width="264"
+                src="./images/ourTeam/img-3.jpg"
+                alt="Product Designer: Mark Guerrero"
+              />
+              <div class="worker-bio">
+                <h3 class="worker-title">Mark Guerrero</h3>
+                <p class="worker-p">Product Designer</p>
+
+
+              </div>
+                  <div class="traling-icons">
+                    <ul class="icons-list">
+                      
+                      <li class="ellipse">
+                        
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-instagram"></use>
+                          </svg>
+                        </a>
+                      
+                      </li>
+
+                   <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-twitter"></use>
+                          </svg>
+                        </a>
+                      
+                    </li>
+
+                    <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-facebook"></use>
+                          </svg>
+                        </a>
+                      
+                    </li>
+
+                    <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>                      
+                    </li>
+
+                    </ul>
+                  </div>
+
+            </li>
+
+            <li class="team-card">
+              <img
+                src="./images/ourTeam/img-2.jpg"
+                alt="Frontend Developer: Tom Ford"
+                width="264"
+              />
+              <div class="worker-bio">
+                <h3 class="worker-title">Tom Ford</h3>
+                <p class="worker-p">Frontend Developer</p>
+
+              </div>
+                   <div class="traling-icons">
+                    <ul class="icons-list">
+                      <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-instagram"></use>                        
+                        </svg>
+                      </a>
+                    </li>
+
+                   <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-twitter"></use>
+                          </svg>
+                        </a>
+                      
+                    </li>
+
+                    <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-facebook"></use>
+                          </svg>
+                        </a>
+                      </svg>
+                    </li>
+
+                    <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-linkedin"></use>
+                          </svg>
+                        </a>
+                      
+                    </li>
+
+                    </ul>
+                  </div>             
+            </li>
+            <li class="team-card">
+              <img
+                src="./images/ourTeam/img-1.jpg"
+                alt="Marketing: Camila Garcia"
+                width="264"
+              />
+              <div class="worker-bio">
+                <h3 class="worker-title">Camila Garcia</h3>
+                <p class="worker-p">Marketing</p>
+
+              </div>
+
+                 <div class="traling-icons">
+                    <ul class="icons-list">
+                      <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-instagram"></use>
+                          </svg>
+                        </a>
+                      
+                    </li>
+
+                   <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-twitter"></use>
+                           </svg>
+                        </a>
+                     
+                    </li>
+
+                    <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-facebook"></use>
+                          </svg>
+                        </a>
+                      
+                    </li>
+
+                    <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-linkedin"></use>
+                          </svg>
+                        </a>
+                      
+                    </li>
+
+                    </ul>
+                  </div>             
+            </li>
+            <li class="team-card">
+              <img
+                src="./images/ourTeam/img.jpg"
+                alt="UI Designer: Daniel Wilson"
+                width="264"
+              />
+              <div class="worker-bio">
+                <h3 class="worker-title">Daniel Wilson</h3>
+                <p class="worker-p">UI Designer</p>
+ 
+              </div>
+
+                <div class="traling-icons">
+                    <ul class="icons-list">
+                      <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-instagram"></use>
+                          </svg>
+                        </a>
+                      
+                    </li>
+
+                   <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-twitter"></use>
+                          </svg>
+                        </a>
+                      
+                    </li>
+
+                    <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-facebook"></use>
+                          </svg>
+                        </a>
+                      
+                    </li>
+
+                    <li class="ellipse">
+                        <a class="ellipse-a" href="">
+                          <svg class="elipse-icon" width="16px" height="16px">
+                          <use  href="./images/icons.svg#icon-linkedin"></use>
+                          </svg>
+                        </a>
+                      
+                    </li>
+
+                    </ul>
+                  </div>             
+            </li>
+          </ul>
+        </div>
+      </section>
+
+            <section class="section-four">
+        <div class="container container-column">
+         <!-- section-four-h2 -->
+          <h2 class="portfolio-title">Our Portfolio</h2>
+
+          <ul class="portfolio-list">
+            
+            <!-- 1 -->
+            <li class="portfolio-card">
+              <div class="porfolio-img">
+                <img
+                  width="360"
+                  height="300"
+                  src="./images/portfolio/img-5.jpg"
+                  alt="Banking App"
+                />
+                <p class="portfolio-img-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
+              <div class="portfolio-card-about">
+                <h3 class="portfolio-card-h">Banking App</h3>
+                <p class="portfolio-card-p">App</p>
+              </div>
+            </li>
+
+
+            <!--2-->
+            <li class="portfolio-card">
+              <img
+                width="360"
+                height="300"
+                src="./images/portfolio/img-4.jpg"
+                alt="Cashless Payment"
+              />
+              <div class="portfolio-card-about">
+                <h3 class="portfolio-card-h">Cashless Payment</h3>
+                <p class="portfolio-card-p">Marketing</p>
+              </div>
+            </li>
+            <!--3-->
+            <li class="portfolio-card">
+              <img
+                width="360"
+                height="300"
+                src="./images/portfolio/img-3.jpg"
+                alt="Meditation App"
+              />
+              <div class="portfolio-card-about">
+                <h3 class="portfolio-card-h">Meditation App</h3>
+                <p class="portfolio-card-p">App</p>
+              </div>
+            </li>
+            <!--4-->
+            <li class="portfolio-card">
+              <img
+                width="360"
+                height="300"
+                src="./images/portfolio/img-2.jpg"
+                alt="Taxi Service"
+              />
+              <div class="portfolio-card-about">
+                <h3 class="portfolio-card-h">Taxi Service</h3>
+                <p class="portfolio-card-p">Marketing</p>
+              </div>
+            </li>
+            <!--5-->
+            <li class="portfolio-card">
+              <img
+                width="360"
+                height="300"
+                src="./images/portfolio/img-1.jpg"
+                alt="Screen Illustrations"
+              />
+              <div class="portfolio-card-about">
+                <h3 class="portfolio-card-h">Screen Illustrations</h3>
+                <p class="portfolio-card-p">Design</p>
+              </div>
+            </li>
+            <!--6-->
+            <li class="portfolio-card">
+              <img
+                width="360"
+                height="300"
+                src="./images/portfolio/img.jpg"
+                alt="Banking App"
+              />
+              <div class="portfolio-card-about">
+                <h3 class="portfolio-card-h">Online Courses</h3>
+                <p class="portfolio-card-p">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>

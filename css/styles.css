@@ -30,8 +30,7 @@ img {
   width: 1158px; /* 1158px =  1128 + (2x15)*/
   margin: 0 auto;
   padding: 0 15px;
-  box-sizing: content-box;/* не учитывать падинг в общую ширину - накладывать поверх width */
-  /* display: flex; */
+  box-sizing: content-box;
 }
 /* #endregion */
 
@@ -39,6 +38,7 @@ img {
 .header{
   border-bottom: 1px solid #e7e9fc;
   box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 .container-header {
   width: 1158px;
@@ -139,9 +139,7 @@ address {
   
 }
 
-.address-ul li:nth-child(2) .mailto {
-  
-}
+
 
 
 .address-ul a {
@@ -176,11 +174,18 @@ address {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
-  padding: 188px 0;
+  /* padding: 188px 0;
   text-align: center;
   height: 600px;
-  max-width: 1440px;
+  max-width: 1440px; */
+
+    width: 100vw; /* Растягиваем на всю ширину экрана */
+    min-height: 100vh; /* Растягиваем на всю высоту экрана */
 }
+.inside-hero {
+  
+}
+
 
 .hero-title {
   font-family: 'Roboto', sans-serif;
@@ -193,6 +198,7 @@ address {
   max-width: 496px;
   display: block;
   margin-bottom: 48px;
+  padding-top: 188px;
 }
 
 .hero-button {
