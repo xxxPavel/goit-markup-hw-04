@@ -328,7 +328,7 @@ address {
 
 }
 .teamcardimage{
- 
+ padding: 32px 0;
 }
 .elipse-icon{
   fill: #f4f4fd;
@@ -373,6 +373,7 @@ address {
   display: block;
   letter-spacing: 0;;
   width: 100%; 
+  padding: 32px 0;
 }
 
 
