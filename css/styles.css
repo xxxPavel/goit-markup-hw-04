@@ -317,6 +317,10 @@ address {
  gap: 24px; 
 
 }
+.traling-icons {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
 .ellipse-a{
   width: 100%;
   height: 100%;
@@ -353,7 +357,8 @@ address {
 .worker-bio {
   width: 264px; /* Явно задаем ширину */
   margin: 0 auto; /* Центрируем, если нужно */
-  padding: 32px 0;
+  padding: 32px 0 0 0;
+  margin-bottom:8px;
 }
 
 .worker-title {  
@@ -370,7 +375,9 @@ address {
 .worker-p {
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 8px;
+  padding: 0;
+  margin: 0;
+  
 }
 
 .team-title {
