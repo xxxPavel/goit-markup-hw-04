@@ -1,5 +1,12 @@
 /* #region main containers */
-h1.h2,h3,h4,h5,h6,p{margin:0;}
+h1.h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
 body {
   color: #434455;
@@ -35,48 +42,47 @@ img {
 /* #endregion */
 
 /* -------- HEADER --------- */
-.header{
+.header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container-header {
   width: 1158px;
   margin: 0 auto;
   padding: 0;
-  box-sizing: content-box;/* не учитывать падинг в общую ширину - накладывать поверх width */
+  box-sizing: content-box; /* не учитывать падинг в общую ширину - накладывать поверх width */
   display: flex;
   justify-content: space-between; /* Розподіляє елементи рівномірно, крайні по краях */
-  padding: 0 15px   
+  padding: 0 15px;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.menu-item--active a{
+.menu-item--active a {
   position: relative;
   color: #404bbf;
-  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-item--active a::after{
-content: '';
-width: 100%;
-position: absolute;
-left: 0;
- bottom: -1px;
- height: 4px;
- background-color: #404bbf; 
+.menu-item--active a::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
   border-radius: 2px;
-  
 }
 
 address {
   font-style: normal;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -101,8 +107,6 @@ address {
   color: #2e2f42;
   display: flex;
   gap: 40px;
-  
-
 }
 .menu-nav a {
   display: inline-block;
@@ -115,7 +119,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -128,19 +131,14 @@ address {
 .address-ul {
   display: flex;
   gap: 40px;
-  
 }
 
 .address-link {
   letter-spacing: 0.02em;
   padding: 24px 0;
-  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #434455;
-  
 }
-
-
-
 
 .address-ul a {
   color: #434455;
@@ -150,7 +148,7 @@ address {
 .address-ul a:hover,
 .address-ul a:focus {
   /* letter-spacing: 0.02em; */
-  color: #404BBF;
+  color: #404bbf;
 }
 /* --------- END HEADER ------- */
 .roboto {
@@ -170,10 +168,11 @@ address {
 /* #region hero */
 .hero {
   background-color: #2e2f42;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-bg.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   /* padding: 188px 0;
   text-align: center;
   height: 600px;
@@ -183,8 +182,6 @@ address {
   width: 100vw; /* Растягиваем на всю ширину экрана */
   min-height: 100vh; /* Растягиваем на всю высоту экрана */
 }
-
-
 
 .hero-title {
   font-family: 'Roboto', sans-serif;
@@ -214,7 +211,7 @@ address {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
-  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -230,16 +227,13 @@ address {
 .features-list {
   display: flex;
   gap: 24px;
-  flex-direction:row;
+  flex-direction: row;
   margin: 0 auto;
   padding: 0;
-
-  
 }
 .features-item {
-   width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
-
 
 .logotype {
   font-family: 'Raleway', sans-serif;
@@ -281,26 +275,24 @@ address {
 }
 
 .feature-icon-wrapper {
-   display: flex; 
-   align-items: center;
-   justify-content: center;
-   height: 112px;
-   background-color: #f4f4fd;
-   border-radius: 4px;
-   border: 1px solid #8e8f99; 
-   margin-bottom: 8px; 
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
 /* SECTION 3 */
-.container-column{
+.container-column {
   display: flex;
   flex-direction: column;
 }
 .section-three {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
   padding: 120px 0;
-
 }
 
 .team-list {
@@ -309,81 +301,74 @@ address {
   margin: 0 auto;
   padding: 0;
 
-  justify-content:space-between ;
+  justify-content: space-between;
 }
 .team-card {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);   
+  width: calc((100% - 72px) / 4);
   box-sizing: border-box;
-
 
   border-radius: 0px 0px 4px 4px;
   padding: 0;
-  margin: 0; 
+  margin: 0;
   border: 0;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-   
-
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-
-.elipse-icon{
+.elipse-icon {
   fill: #f4f4fd;
-
 }
 
 .icons-list {
- display: flex;
- justify-content: center;
- gap: 24px; 
-
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 8px;
 }
 .traling-icons {
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
 }
-.ellipse-a{
+.ellipse-a {
   width: 100%;
   height: 100%;
-  background-color:#4d5ae5;
-   border-radius: 50%;
-   display: flex; 
-   align-items: center;
-    justify-content: center;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ellipse-a:hover, .ellipse-a:focus  {
-  background-color:  #404bbf; ;
+.ellipse-a:hover,
+.ellipse-a:focus {
+  background-color: #404bbf;
 }
 
 .ellipse {
   width: 40px;
   height: 40px;
   /* background-color: #4D5AE5; */
- 
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-card img {
   margin: 0;
   display: block;
-  letter-spacing: 0;;
-  width: 100%; 
-
+  letter-spacing: 0;
+  width: 100%;
 }
-
-
-
 
 .worker-bio {
   width: 264px; /* Явно задаем ширину */
   margin: 0 auto; /* Центрируем, если нужно */
 
-  margin-bottom:8px;
-  padding: 32px 0 32px
+  margin-bottom: 8px;
+  padding: 32px 0 32px;
 }
 
-.worker-title {  
+.worker-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -399,7 +384,6 @@ address {
   text-align: center;
   padding: 0;
   margin: 0;
-  
 }
 
 .team-title {
@@ -410,7 +394,6 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  
 }
 
 .visually-hidden {
@@ -435,31 +418,30 @@ address {
 
 .portfolio-list {
   display: flex;
-   /* для переносу елементів списку на новий рядок якщо їм не вистачає місця в попередньому */
+  /* для переносу елементів списку на новий рядок якщо їм не вистачає місця в попередньому */
   flex-wrap: wrap;
   /* для визначення горизонтальних відступів між пунктами списку  */
-  column-gap: 24px; 
+  column-gap: 24px;
   /* для визначення вертикальних відступів між елементами списку якщо вони переносяться на новий рядок */
-  row-gap: 48px; 
-  border:0;
+  row-gap: 48px;
+  border: 0;
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
 }
 
 .portfolio-card {
-
-  width: calc((100% - 48px) / 3); 
+  width: calc((100% - 48px) / 3);
   /* overflow: hidden; */
-   border:0;
-   padding: 0;
-   box-sizing: border-box;
-   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-card:hover {
-
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card img {
@@ -470,7 +452,7 @@ address {
 
 .portfolio-img {
   position: relative;
-   overflow: hidden;
+  overflow: hidden;
 }
 
 .portfolio-img-p {
@@ -479,14 +461,13 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd; 
+  color: #f4f4fd;
   padding: 40px 32px;
-  background-color: #4d5ae5; 
-   height: 100%;
-   width: 100%; 
-   transform: translateY(100%);
-   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-title {
@@ -542,21 +523,18 @@ address {
   padding: 100px 0;
 }
 .footer-text {
-  font-family: "Roboto",sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #f4f4fd;
-  letter-spacing:2%;
+  letter-spacing: 2%;
   max-width: 264px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;;
-
-
+  line-height: 24px;
 }
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
   text-transform: uppercase;
-
 
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -565,11 +543,7 @@ address {
   letter-spacing: 0.03em;
 
   color: #4d5ae5;
-
-
-
-
 }
-.container-block{
-  display:block;
+.container-block {
+  display: block;
 }
