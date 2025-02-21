@@ -574,3 +574,8 @@ address {
 .container-block {
   display: block;
 }
+
+.f{
+  display: flex;
+   align-items: baseline;
+}
