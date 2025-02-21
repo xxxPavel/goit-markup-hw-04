@@ -326,9 +326,7 @@ address {
 
 }
 
-.teamcardi{
-  padding: 32px 0 32px
-}
+
 .elipse-icon{
   fill: #f4f4fd;
 
@@ -380,8 +378,9 @@ address {
 .worker-bio {
   width: 264px; /* Явно задаем ширину */
   margin: 0 auto; /* Центрируем, если нужно */
-  padding: 32px 0 0 0;
+
   margin-bottom:8px;
+  padding: 32px 0 32px
 }
 
 .worker-title {  
