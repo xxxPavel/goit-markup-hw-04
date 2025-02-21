@@ -330,7 +330,7 @@ address {
   margin-top: 0;
   margin-bottom: 0px;
 }
-.ellipse-a {
+.ellipsea {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -341,8 +341,8 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ellipse a:hover,
-.ellipse a:focus {
+.ellipsea:hover,
+.ellipsea:focus {
   background-color: #404bbf;
 }
 
