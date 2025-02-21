@@ -575,7 +575,7 @@ address {
   display: block;
 }
 
-.f{
+.footer-content{
     width: 1158px; /* 1158px =  1128 + (2x15)*/
   margin: 0 auto;
   padding: 0 15px;
